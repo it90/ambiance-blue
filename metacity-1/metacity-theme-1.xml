@@ -56,7 +56,7 @@
   <!-- <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/> -->
   <!-- <title color="#333" x="9" y="(((height - title_height) / 2) `max` 0)"/> -->
   <!-- <title color="#333" x="11" y="(((height - title_height) / 2) `max` 0)"/> -->
-  <title color="#787d80" x="10" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#383d40" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
 <draw_ops name="draw_title_text_unfocused">
@@ -64,7 +64,7 @@
   <!-- <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/> -->
   <!-- <title color="#333" x="9" y="(((height - title_height) / 2) `max` 0)"/> -->
   <!-- <title color="#333" x="11" y="(((height - title_height) / 2) `max` 0)"/> -->
-  <title color="#d2dbdf" x="10" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#a2abaf" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
 <draw_ops name="draw_title">
@@ -72,7 +72,7 @@
   <rectangle color="gtk:bg[NORMAL]" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
     <color value="shade/gtk:bg[NORMAL]/0.92" />
-    <color value="gtk:bg[NORMAL]" />
+    <color value="shade/gtk:bg[NORMAL]/1" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
@@ -105,8 +105,8 @@
   <!-- frame and gradient -->
   <rectangle color="gtk:bg[NORMAL]" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
-    <color value="shade/gtk:bg[NORMAL]/1.1" />
-    <color value="gtk:bg[NORMAL]" />
+    <color value="shade/gtk:bg[NORMAL]/1" />
+    <color value="shade/gtk:bg[NORMAL]/1" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
