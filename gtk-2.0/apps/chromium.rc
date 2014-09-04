@@ -11,17 +11,17 @@ style "chromium_toolbar_button" {
 
 style "chrome-gtk-frame"
 {
-  ChromeGtkFrame::frame-color = "#efefef"
-  ChromeGtkFrame::inactive-frame-color = "#efefef"
+  ChromeGtkFrame::frame-color = "#373b3c"
+  ChromeGtkFrame::inactive-frame-color = "#373b3c"
 
   ChromeGtkFrame::frame-gradient-size = 16
-  ChromeGtkFrame::frame-gradient-color = "#efefef"
+  ChromeGtkFrame::frame-gradient-color = "#565b5c"
 
-  ChromeGtkFrame::incognito-frame-color = lighter ("#efefef")
-  ChromeGtkFrame::incognito-inactive-frame-color = lighter ("#efefef")
+  ChromeGtkFrame::incognito-frame-color = lighter ("#373b3c")
+  ChromeGtkFrame::incognito-inactive-frame-color = lighter ("#373b3c")
 
   ChromeGtkFrame::incognito-frame-gradient-size = 16
-  ChromeGtkFrame::incognito-frame-gradient-color = "#efefef"
+  ChromeGtkFrame::incognito-frame-gradient-color = "#565b5c"
 
   ChromeGtkFrame::scrollbar-trough-color = shade (0.912, @bg_color)
   ChromeGtkFrame::scrollbar-slider-prelight-color = shade (1.04, @bg_color)

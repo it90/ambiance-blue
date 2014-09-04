@@ -1,8 +1,9 @@
-gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#4677f0\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#F0F1F2\ntooltip_bg_color:#000000\nlink_color:#1448DD"
+gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#4677f0\nselected_fg_color:#ffffff\ntext_color:#3c3c3c\nbg_color:#f0f1f2\ntooltip_bg_color:#000000\nlink_color:#1448dd"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
 gtk-auto-mnemonics = 1
+gtk-alternative-sort-arrows = 1
 
 style "default" {
 	xthickness = 1
@@ -58,7 +59,7 @@ style "default" {
 
 	GtkProgressBar::min-horizontal-bar-height = 14
 	GtkProgressBar::min-vertical-bar-width = 14
-
+	
 	GtkImage::x-ayatana-indicator-dynamic = 1
 	GtkMenuBar::window-dragging = 1
 
@@ -129,13 +130,13 @@ style "dark"
 	fg[ACTIVE]	  = @fg_color_dark
 	fg[SELECTED]	  = @selected_fg_color_dark
 	fg[INSENSITIVE]	  = shade (0.5, @fg_color_dark)
-
+  
 	bg[NORMAL]        = @bg_color_dark
 	bg[ACTIVE]	  = shade (0.8, @bg_color_dark)
 	bg[SELECTED]      = @selected_bg_color
-	bg[PRELIGHT]      = shade (1.0, "#484C4D")
+	bg[PRELIGHT]      = shade (1.0, "#484c4d")
 	bg[INSENSITIVE]   = shade (0.85, @bg_color_dark)
-
+  	
 	text[NORMAL]      = @fg_color_dark
 	text[PRELIGHT]	  = shade (1.15, @fg_color_dark)
 	text[SELECTED]	  = @selected_fg_color_dark
@@ -230,7 +231,7 @@ style "scrollbar" = "button" {
 
 	bg[NORMAL] = @bg_color
 	bg[PRELIGHT] = shade (1.04, @bg_color)
-
+	
 	bg[ACTIVE] = shade (0.96, @bg_color)
 
 	engine "murrine"
@@ -290,7 +291,7 @@ style "notebook_bg" {
 style "notebook" {
 	xthickness = 2
 	ythickness = 2
-
+	
 	engine "murrine" {
 		roundness = 3
 		contrast = 0.8
@@ -309,7 +310,7 @@ style "statusbar" {
 style "comboboxentry" = "notebook_button" {
 	xthickness = 3
 	ythickness = 3
-
+	
 	engine "murrine" {
 		textstyle = 1
 		glowstyle = 5
@@ -381,7 +382,7 @@ style "scale_menu_item" = "scale" {
 	GtkScale::slider-width = 21
 	GtkScale::slider-length = 13
 
-	bg[ACTIVE] = shade(0.98, "#484C4D")
+	bg[ACTIVE] = shade(0.98, "#484c4d")
 	bg[INSENSITIVE] = shade (0.9, @bg_color)
 
 	engine "murrine" {
@@ -403,7 +404,7 @@ style "separator_menu_item" {
 	GtkWidget::wide-separators = 1
 	GtkWidget::separator-width = 1
 	GtkWidget::separator-height = 7
-
+	
 	engine "murrine" {
 		contrast = 0.6
 		separatorstyle = 0
@@ -458,7 +459,7 @@ style "progressbar" {
 }
 
 style "progressbar_menu_item" = "progressbar" {
-	bg[ACTIVE] = shade(0.98, "#484C4D")
+	bg[ACTIVE] = shade(0.98, "#484c4d")
 
 	engine "murrine" {
 		roundness = 0
@@ -537,7 +538,7 @@ style "calendar" {
 }
 
 style "calendar_menu_item" = "calendar" {
-	base[NORMAL] = "#585E60"
+	base[NORMAL] = "#585e60"
 	base[ACTIVE] = "#44494b"
 }
 

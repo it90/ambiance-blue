@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Ambiance Blue 12.10 Light
-Comment=Ubuntu Ambiance Blue 12.10 Light theme
+Name=Ambiance (blue)
+Comment=Ubuntu Ambiance (blue) theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Ambiance Blue 12.10 Light
-MetacityTheme=Ambiance Blue 12.10 Light
-IconTheme=Faenza-Cupertino
-CursorTheme=Aero
-ButtonLayout=:minimize,maximize,close
+GtkTheme=Ambiance (blue)
+MetacityTheme=Ambiance (blue)
+IconTheme=ubuntu-mono-dark
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:

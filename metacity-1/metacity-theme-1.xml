@@ -52,113 +52,113 @@
 <!-- window titles -->
 
 <draw_ops name="draw_title_text_normal">
-  <!-- <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)+1"/> -->
-  <!-- <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/> -->
-  <!-- <title color="#333" x="9" y="(((height - title_height) / 2) `max` 0)"/> -->
-  <!-- <title color="#333" x="11" y="(((height - title_height) / 2) `max` 0)"/> -->
-  <title color="#383d40" x="10" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#333333" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
+  <title color="#333333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/>
+  <title color="#333333" x="9" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#333333" x="11" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#d2dbdf" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
 <draw_ops name="draw_title_text_unfocused">
-  <!-- <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)+1"/> -->
-  <!-- <title color="#333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/> -->
-  <!-- <title color="#333" x="9" y="(((height - title_height) / 2) `max` 0)"/> -->
-  <!-- <title color="#333" x="11" y="(((height - title_height) / 2) `max` 0)"/> -->
-  <title color="#a2abaf" x="10" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#333333" x="10" y="(((height - title_height) / 2) `max` 0)+1"/>
+  <title color="#333333" x="10" y="(((height - title_height) / 2) `max` 0)-1"/>
+  <title color="#333333" x="9" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#333333" x="11" y="(((height - title_height) / 2) `max` 0)"/>
+  <title color="#787d80" x="10" y="(((height - title_height) / 2) `max` 0)"/>
 </draw_ops>
 
 <draw_ops name="draw_title">
   <!-- frame and gradient -->
-  <rectangle color="gtk:bg[NORMAL]" filled="false" x="0" y="0" width="width-1" height="top_height"/>
+  <rectangle color="#373b3c" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
-    <color value="shade/gtk:bg[NORMAL]/0.92" />
-    <color value="shade/gtk:bg[NORMAL]/1" />
+    <color value="shade/#424647/1.1" />
+    <color value="#373b3c" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="shade/gtk:bg[NORMAL]/0.94" />
-    <color value="gtk:bg[NORMAL]" />
-    <color value="shade/gtk:bg[NORMAL]/0.94" />
+    <color value="shade/#424647/1.2" />
+    <color value="shade/#424647/1.5" />
+    <color value="shade/#424647/1.2" />
   </gradient>
   <!-- left arch -->
-  <!-- <arc color="shade/gtk:bg[NORMAL]/1.1" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
-  <arc color="gtk:bg[NORMAL]" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
-  <line color="gtk:bg[NORMAL]" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="gtk:bg[NORMAL]" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="gtk:bg[NORMAL]" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="gtk:bg[NORMAL]" x1="0" x2="1" y1="4" y2="4"/>
+  <!-- <arc color="shade/#424647/1.1" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
+  <arc color="#373b3c" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
+  <line color="#373b3c" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#373b3c" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#373b3c" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#373b3c" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <!-- <arc color="shade/gtk:bg[NORMAL]/1.1" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
-  <arc color="gtk:bg[NORMAL]" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
-  <line color="gtk:bg[NORMAL]" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="gtk:bg[NORMAL]" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="gtk:bg[NORMAL]" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="gtk:bg[NORMAL]" x1="width-2" x2="width" y1="4" y2="4"/>
+  <!-- <arc color="shade/#424647/1.1" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
+  <arc color="#373b3c" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
+  <line color="#373b3c" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#373b3c" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#373b3c" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#373b3c" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility">
   <include name="draw_title" />
-  <line color="shade/gtk:bg[NORMAL]/0.88" x1="0" x2="width" y1="height-1" y2="height-1"/>
+  <line color="shade/#373b3c/0.88" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_unfocused">
   <!-- frame and gradient -->
-  <rectangle color="gtk:bg[NORMAL]" filled="false" x="0" y="0" width="width-1" height="top_height"/>
+  <rectangle color="#373b3c" filled="false" x="0" y="0" width="width-1" height="top_height"/>
   <gradient type="vertical" x="1" y="1" width="width-2" height="top_height-1">
-    <color value="shade/gtk:bg[NORMAL]/1" />
-    <color value="shade/gtk:bg[NORMAL]/1" />
+    <color value="shade/#424647/0.92" />
+    <color value="#373b3c" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="shade/gtk:bg[NORMAL]/1.2" />
-    <color value="shade/gtk:bg[NORMAL]/1.5" />
-    <color value="shade/gtk:bg[NORMAL]/1.2" />
+    <color value="shade/#424647/0.94" />
+    <color value="#424647" />
+    <color value="shade/#424647/0.94" />
   </gradient>
   <!-- left arch -->
-  <!-- <arc color="shade/gtk:bg[NORMAL]/0.98" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
-  <arc color="gtk:bg[NORMAL]" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
-  <line color="gtk:bg[NORMAL]" x1="0" x2="4" y1="1" y2="1"/>
-  <line color="gtk:bg[NORMAL]" x1="0" x2="2" y1="2" y2="2"/>
-  <line color="gtk:bg[NORMAL]" x1="0" x2="1" y1="3" y2="3"/>
-  <line color="gtk:bg[NORMAL]" x1="0" x2="1" y1="4" y2="4"/>
+  <!-- <arc color="shade/#424647/0.98" x="0" y="1" width="9" height="7" start_angle="270" extent_angle="90" />
+  <arc color="#373b3c" x="0" y="0" width="9" height="9" start_angle="270" extent_angle="90" /> -->
+  <line color="#373b3c" x1="0" x2="4" y1="1" y2="1"/>
+  <line color="#373b3c" x1="0" x2="2" y1="2" y2="2"/>
+  <line color="#373b3c" x1="0" x2="1" y1="3" y2="3"/>
+  <line color="#373b3c" x1="0" x2="1" y1="4" y2="4"/>
   <!-- right arch -->
-  <!-- <arc color="shade/gtk:bg[NORMAL]/0.98" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
-  <arc color="gtk:bg[NORMAL]" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
-  <line color="gtk:bg[NORMAL]" x1="width-5" x2="width" y1="1" y2="1"/>
-  <line color="gtk:bg[NORMAL]" x1="width-3" x2="width" y1="2" y2="2"/>
-  <line color="gtk:bg[NORMAL]" x1="width-2" x2="width" y1="3" y2="3"/>
-  <line color="gtk:bg[NORMAL]" x1="width-2" x2="width" y1="4" y2="4"/>
+  <!-- <arc color="shade/#424647/0.98" x="width-10" y="1" width="9" height="7" start_angle="0" extent_angle="90" />
+  <arc color="#373b3c" x="width-10" y="0" width="9" height="9" start_angle="0" extent_angle="90" /> -->
+  <line color="#373b3c" x1="width-5" x2="width" y1="1" y2="1"/>
+  <line color="#373b3c" x1="width-3" x2="width" y1="2" y2="2"/>
+  <line color="#373b3c" x1="width-2" x2="width" y1="3" y2="3"/>
+  <line color="#373b3c" x1="width-2" x2="width" y1="4" y2="4"/>
 </draw_ops>
 
 <draw_ops name="draw_title_utility_unfocused">
   <include name="draw_title_unfocused" />
-  <line color="shade/gtk:bg[NORMAL]/0.88" x1="0" x2="width" y1="height-1" y2="height-1"/>
+  <line color="shade/#373b3c/0.88" x1="0" x2="width" y1="height-1" y2="height-1"/>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized">
   <!-- frame and gradient -->
-  <line color="gtk:bg[NORMAL]" x1="0" x2="width" y1="0" y2="0"/>
+  <line color="#373b3c" x1="0" x2="width" y1="0" y2="0"/>
   <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
-    <color value="shade/gtk:bg[NORMAL]/0.98" />
-    <color value="gtk:bg[NORMAL]" />
+    <color value="shade/#424647/0.98" />
+    <color value="#373b3c" />
   </gradient>
   <!-- top line -->
   <gradient type="horizontal" x="0" y="1" width="width" height="1">
-    <color value="shade/gtk:bg[NORMAL]/1.08" />
-    <color value="shade/gtk:bg[NORMAL]/1.38" />
-    <color value="shade/gtk:bg[NORMAL]/1.08" />
+    <color value="shade/#424647/1.08" />
+    <color value="shade/#424647/1.38" />
+    <color value="shade/#424647/1.08" />
   </gradient>
 </draw_ops>
 
 <draw_ops name="draw_title_maximized_unfocused">
   <!-- frame and gradient -->
-  <line color="gtk:bg[NORMAL]" x1="0" x2="width" y1="0" y2="0"/>
+  <line color="#373b3c" x1="0" x2="width" y1="0" y2="0"/>
   <gradient type="vertical" x="0" y="1" width="width" height="top_height-1">
-    <color value="shade/gtk:bg[NORMAL]/0.9" />
-    <color value="gtk:bg[NORMAL]" />
+    <color value="shade/#424647/0.9" />
+    <color value="#373b3c" />
   </gradient>
   <!-- top line -->
-  <line color="shade/gtk:bg[NORMAL]/0.96" x1="0" x2="width" y1="1" y2="1"/>
+  <line color="shade/#424647/0.96" x1="0" x2="width" y1="1" y2="1"/>
 </draw_ops>
 
 <!-- window frames -->
@@ -166,8 +166,8 @@
 <draw_ops name="draw_frame">
   <rectangle color="shade/gtk:bg[NORMAL]/0.7" filled="true" x="0" y="0" width="width" height="height"/>
   <gradient type="vertical" x="0" y="0" width="width" height="70">
-    <color value="gtk:bg[NORMAL]" />
-    <color value="gtk:bg[NORMAL]" />
+    <color value="#373b3c" />
+    <color value="#373b3c" />
     <color value="shade/gtk:bg[NORMAL]/0.7" />
   </gradient>
 </draw_ops>
@@ -192,83 +192,83 @@
 
 <!-- button trough left -->
 <draw_ops name="left_left_background_focused_normal">
-  <!-- <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_left_background_focused_pressed">
-  <!-- <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_middle_background_focused_normal">
-  <!-- <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_middle_background_focused_pressed">
-  <!-- <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_right_background_focused_normal">
-  <!-- <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_right_background_focused_pressed">
-  <!-- <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_left_background_unfocused_normal">
-  <!-- <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_left_background_unfocused_pressed">
-  <!-- <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_middle_background_unfocused_normal">
-  <!-- <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_middle_background_unfocused_pressed">
-  <!-- <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_right_background_unfocused_normal">
-  <!-- <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_right_background_unfocused_pressed">
-  <!-- <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
-
+  
 <!-- button trough right -->
 <draw_ops name="right_left_background_focused_normal">
-  <!-- <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_left_background_focused_pressed">
-  <!-- <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_middle_background_focused_normal">
-  <!-- <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_middle_background_focused_pressed">
-  <!-- <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_right_background_focused_normal">
-  <!-- <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_right_background_focused_pressed">
-  <!-- <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_left_background_unfocused_normal">
-  <!-- <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_left_background_unfocused_pressed">
-  <!-- <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_middle_background_unfocused_normal">
-  <!-- <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_middle_background_unfocused_pressed">
-  <!-- <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_right_background_unfocused_normal">
-  <!-- <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_right_background_unfocused_pressed">
-  <!-- <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/> -->
+  <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 
 <!-- button prelightlays -->
 <draw_ops name="menu_focused_normal">
-  <image filename="menu.png" x="0" y="1" width="object_width" height="object_height"/>
+   <image filename="menu.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="menu_focused_prelight">
   <image filename="menu_prelight.png" x="0" y="1" width="object_width" height="object_height"/>
@@ -379,7 +379,7 @@
   <button function="right_right_background" state="pressed" draw_ops="right_right_background_focused_pressed"/>
   <button function="menu" state="normal" draw_ops="menu_focused_normal"/>
   <button function="menu" state="prelight" draw_ops="menu_focused_prelight"/>
-  <button function="menu" state="pressed" draw_ops="menu_focused_normal"/>
+  <button function="menu" state="pressed" draw_ops="menu_focused_normal"/> 
   <button function="minimize" state="normal" draw_ops="minimize_focused_normal"/>
   <button function="minimize" state="prelight" draw_ops="minimize_focused_prelight"/>
   <button function="minimize" state="pressed" draw_ops="minimize_focused_pressed"/>
@@ -419,7 +419,7 @@
   <button function="right_right_background" state="pressed" draw_ops="right_right_background_unfocused_pressed"/>
   <button function="menu" state="normal" draw_ops="menu_unfocused_normal"/>
   <button function="menu" state="prelight" draw_ops="menu_unfocused_prelight"/>
-  <button function="menu" state="pressed" draw_ops="menu_unfocused_normal"/>
+  <button function="menu" state="pressed" draw_ops="menu_unfocused_normal"/> 
   <button function="minimize" state="normal" draw_ops="minimize_unfocused_normal"/>
   <button function="minimize" state="prelight" draw_ops="minimize_unfocused_prelight"/>
   <button function="minimize" state="pressed" draw_ops="minimize_unfocused_pressed"/>
@@ -530,4 +530,4 @@
 <window type="utility" style_set="utility"/>
 <window type="border" style_set="border"/>
 
-</metacity_theme>
+</metacity_theme> 

@@ -2,39 +2,36 @@
 @define-color bg_color #f0f1f2;
 @define-color fg_color #4c4c4c;
 @define-color base_color #ffffff;
-@define-color text_color #3C3C3C;
+@define-color text_color #3c3c3c;
 @define-color selected_bg_color #4677f0;
 @define-color selected_fg_color #ffffff;
 @define-color tooltip_bg_color #000000;
 @define-color tooltip_fg_color #ffffff;
 
 /* misc colors used by gtk+ */
-@define-color info_fg_color rgb (181, 171, 156);
-@define-color info_bg_color rgb (252, 252, 189);
-@define-color warning_fg_color rgb (173, 120, 41);
-@define-color warning_bg_color rgb (250, 173, 61);
-@define-color question_fg_color rgb (97, 122, 214);
-@define-color question_bg_color rgb (138, 173, 212);
-@define-color error_fg_color rgb (166, 38, 38);
-@define-color error_bg_color rgb (237, 54, 54);
-@define-color link_color #d9904a;
+@define-color info_fg_color rgb (156, 171, 181);
+@define-color info_bg_color rgb (189, 252, 252);
+@define-color warning_fg_color rgb (41, 120, 173);
+@define-color warning_bg_color rgb (61, 173, 250);
+@define-color question_fg_color rgb (214, 122, 97);
+@define-color question_bg_color rgb (212, 173, 138);
+@define-color error_fg_color rgb (235, 235, 235);
+@define-color error_bg_color rgb (44, 56, 223);
+@define-color link_color @selected_bg_color;
 @define-color success_color #069a4e;
-@define-color error_color #0000cc;
-
-
-@define-color it_color_l #fff;
-@define-color it_color_e #000;
+@define-color error_color #2c38df;
 
 /* theme common colors */
 @define-color button_bg_color shade (@bg_color, 1.02); /*shade (#cdcdcd, 1.08);*/
 @define-color notebook_button_bg_color shade (@bg_color, 1.02);
 @define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
-@define-color dark_bg_color #efefef;
-@define-color dark_fg_color #373b3c;
+@define-color dark_bg_color #373b3c;
+@define-color dark_fg_color #d2dbdf;
 
 @define-color backdrop_fg_color mix (@bg_color, @fg_color, 0.8);
 @define-color backdrop_text_color mix (@base_color, @text_color, 0.8);
 @define-color backdrop_dark_fg_color mix (@dark_bg_color, @dark_fg_color, 0.75);
+/*@define-color backdrop_dark_bg_color mix (@dark_bg_color, @dark_fg_color, 0.75);*/
 @define-color backdrop_selected_bg_color shade (@bg_color, 0.92);
 @define-color backdrop_selected_fg_color @fg_color;
 
@@ -47,4 +44,6 @@
 @import url("apps/nautilus.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
+@import url("apps/gnome-system-log.css");
 @import url("apps/unity-greeter.css");
+@import url("apps/glade.css");
