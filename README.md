@@ -2,7 +2,9 @@
 
 Ubuntu Ambiance Blue theme for Ubuntu 14.04
 
+## Screenshot
 
+![Ambiance (blue)](screenshot.png)
 
 ## Installation
 
