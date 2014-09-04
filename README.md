@@ -10,7 +10,7 @@ Ubuntu Ambiance Blue theme for Ubuntu 14.04
 
 Copy the repository contents within a folder in `~/.themes/`
 
-## Alternatives
+## Alternative colours
 
 Other colours available at https://github.com/it90/ubuntu-ambiance-colours
 
